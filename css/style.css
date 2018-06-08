@@ -4,51 +4,55 @@
 
 body {
   background-color: #dadada;
-  font-family: sans-serif;
   font-size: 10px;
-  text-align: center;
+  text-transform: uppercase;
 }
 
-.container {
-  margin: 0 auto;
-  width: 100%;
+h1 {
+  font-size: 2em;
+  padding: 10% 0%;
+}
+
+.container > h1 {
+    font-family: sans-serif;
+    text-align: center;
+
 }
 
 div {
-  background-color: #A8A8A8;
   float: left;
-  font-size: 1.3em;
-  font-family: serif;
-  text-align: left;
+  font-size: 1.1em;
   margin: 1% 1%;
   padding: 0% 0% 40% 5%;
   width: 100%;
 }
 
-h1 {
-  font-size: 2em;
-  text-transform: uppercase;
-  padding: 10% 0%;
+.preview {
+  background-size: cover;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
-.preview-baku {
-  background: #fff url(../images/baku.jpg) no-repeat top center;
+.baku {
+  background-image: url(../images/baku.jpg);
 }
 
-.preview-london {
-  background: #fff url(../images/london.png) no-repeat top center;
+.london {
+  background-image: url(../images/london.png);
 }
 
-.preview-madrid {
-  background: #fff url(../images/madrid.jpg) no-repeat top center;
+.madrid {
+  background-image: url(../images/madrid.jpg);
 }
 
-.preview-rome {
-  background: #fff url(../images/rome.jpg) no-repeat top center;
+.rome {
+  background-image: url(../images/rome.jpg);
 }
 
 @media screen and (min-width: 575px) {
   div {
+    font-size: 1.2em;
     width: 48%;
     padding: 1.5% 0% 26% 2%;
   }
